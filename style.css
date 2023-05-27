@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #1A1A1C;
+    color: aliceblue;
+  
+  }
+  .container{
+    margin-top: 65px;
+    margin-bottom: 20px;
+    display: flex;
+     
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  #searchInput{
+  background-color: #1A1A1C;
+   border: none;
+  color:white;
+  }
+  input:focus{
+  outline:none;
+  }
+  #sort{
+    background-color:#1A1A1C;
+   color: rgb(76, 77, 78);
+   text-align: center;
+   width: 170px;
+   
+  }
+  
+  #bypercentage{
+    background-color: #1A1A1C;
+    color: rgb(98, 101, 104);
+    text-align: center;
+    width: 170px;
+  }
+  #searchButton{
+  background-color:grey;
+   border:none;
+  color:white;
+  border-radius:8px;
+  }
+  #searchButton:hover{
+  background-color:grey;
+   border:none;
+  color:white;
+  border-radius:9px;
+  cursor:pointer;
+  }
+  #searchButton:active{
+   background-color:#454545;
+   border:none;
+  color:white;
+  border-radius:9px;
+  }
+  .designbutton{
+  width: 300px;
+   background-color:#1A1A1C;
+   color: aliceblue;
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid rgb(100, 99, 96);
+  border-radius: 8px;
+  }
+  .infodiv{
+    
+    width: 770px;
+    height: 700px;
+   border: 1px solid whitesmoke;
+  
+  }
+  
+  .buttons{
+    height: 40px;
+    display: flex;
+    gap: 10px;
+  
+  }
+  th,td{
+    padding: 20px;
+  }
+  .imgsize{
+  width:20px;
+  }
