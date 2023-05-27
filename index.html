@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>location</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+	<div class="buttons">
+    <div class="designbutton">
+<input type="text" id="searchInput" placeholder="Enter search term">
+<button id="searchButton" onclick="addfilter()">Search</button>
+      </div>
+     <button type="button" id="bypercentage"onclick="sortByMarketCap()">Sort By Mkt Cap</button>
+    <button type="button" id="sort" onclick="sortByPercentageChange()">Sort by percentage</button>
+
+	</div>
+ 
+<div class="infodiv" id="infodiv">
+	<table id="data"></table>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
